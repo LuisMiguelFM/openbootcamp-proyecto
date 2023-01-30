@@ -16,7 +16,7 @@ const TaskComponent = ({ task }) => {
                 Level: { task.level }
             </h4>
             <h5>
-                This tas is: { task.completed ? 'COMPLETED': 'PENDING' }
+                This task is: { task.completed ? 'COMPLETED': 'PENDING' }
             </h5>
         </div>
     );
